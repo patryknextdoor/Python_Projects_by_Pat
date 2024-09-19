@@ -1,0 +1,2 @@
+The folder "DataCamp_DataScience_CareerTrack" encompasses comprehensive study materials, practical exercises, 
+and detailed notes curated during active participation in the Associate Data Science Career Track at DataCamp (www.datacamp.com).

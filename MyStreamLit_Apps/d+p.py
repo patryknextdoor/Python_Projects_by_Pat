@@ -1,6 +1,3 @@
-# This web app is feeded with real time Bitcoin data from my local Postgresql DB and displays real time plots a Histogram and a Line plot of close prices over time. Both are being updated in real time.
-# The goal is to represent visually  in real time how the close price data is distributed over time for further analysis. 
-
 
 import time 
 import psycopg2  
@@ -28,7 +25,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'  # log message format
 )
 
-# Function to fetch 'Close' data from PostgreSQL without caching
+# Function to fetch 'Close' data from PostgreSQL 
 def fetch_data() -> pd.DataFrame:
     conn = psycopg2.connect(
         dbname="BinanceLiveDB",
